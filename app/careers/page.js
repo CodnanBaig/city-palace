@@ -1,0 +1,4 @@
+import { Shell } from '@/components/SiteChrome';
+import PageHero from '@/components/PageHero';
+export default function CareersPage(){return <Shell><main className="page-main"><PageHero kicker="Join the museum" title={<>Careers</>} copy="Work across heritage, museums, visitor experience, research, culture and creative development at one of Jaipur’s most significant institutions." image="/images/sarvato-bhadra.jpg"/>
+<section className="content-wrap"><div className="content-intro"><p className="eyebrow">Work with us</p><div><h2>Help shape the next chapter.</h2><p>The museum welcomes people who care deeply about heritage, cultural development and thoughtful visitor experiences. Roles can span collections, operations, communications, design, hospitality and more.</p><p style={{marginTop:'30px'}}><a className="text-link" href="mailto:hr@royaljaipur.in">Send your CV & portfolio <span>→</span></a></p></div></div></section></main></Shell>}

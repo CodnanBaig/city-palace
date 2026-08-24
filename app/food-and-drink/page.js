@@ -1,0 +1,10 @@
+import Image from 'next/image';
+import { Shell } from '@/components/SiteChrome';
+import PageHero from '@/components/PageHero';
+const venues=[
+ {name:'Baradari',img:'/images/baradari.jpg',copy:'A gourmet international menu with indoor and outdoor seating in a restored architectural setting.',hours:'Mon–Sun · 11 AM–11 PM'},
+ {name:'The Gallery Cafe',img:'/images/gallery-cafe.jpg',copy:'Small bites and cafe service overlooking the Palace complex from Sarvato Bhadra.',hours:'Mon–Sun · 10:30 AM–5:30 PM'}
+]
+export default function FoodPage(){return <Shell><main className="page-main"><PageHero kicker="Eat at the Palace" title={<>Food &<br/>drink</>} copy="From a full dinner to a coffee between galleries, dining inside the Palace extends the visit into a slower, more atmospheric experience." image="/images/food.jpg"/>
+<section className="content-wrap"><div className="content-intro"><p className="eyebrow">Three experiences</p><div><h2>Contemporary dining, surrounded by history.</h2><p>Baradari and The Gallery Cafe operate within the Palace complex, while The Sarvato offers a seasonal experimental tasting-menu format from September to April.</p></div></div><div className="venue-grid">{venues.map(v=><article className="venue" key={v.name}><Image src={v.img} alt={v.name} fill sizes="(max-width:1000px)100vw,50vw"/><div className="venue-copy"><h3>{v.name}</h3><p>{v.copy}</p><small>{v.hours}</small></div></article>)}</div></section>
+<section className="dark-block"><div className="content-intro"><p className="eyebrow light">Seasonal</p><div><h2 style={{color:'#fff'}}>The Sarvato</h2><p style={{color:'rgba(255,255,255,.66)'}}>An experimental tasting-menu restaurant that operates seasonally, bringing a more intimate culinary format to the Palace.</p></div></div><div className="detail-list"><div className="detail-row"><span>Season</span><strong>September — April</strong></div><div className="detail-row"><span>Format</span><strong>Tasting menu</strong></div></div></section></main></Shell>}

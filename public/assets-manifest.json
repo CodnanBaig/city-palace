@@ -1,0 +1,8 @@
+{
+  "source": "https://citypalace.org/",
+  "note": "Public images retained from the current City Palace Museum website/CDN for this redesign concept.",
+  "assets": [
+    "hero.jpg","arches.jpg","sileh-khana.jpg","sabha-niwas.jpg","painting-photography.jpg","mubarak-mahal-gallery.jpg","rath-khana.jpg","jaipur-centre-art.jpg","pritam-niwas.jpg","sarvato-bhadra.jpg","chhavi-niwas.jpg","sri-niwas.jpg","mubarak-mahal.jpg","shobha-niwas.jpg","historic-palace.jpg","sarhad.jpg","mubarak-night.jpg","royal-tour.jpg","jca-visit.jpg","palace-map.jpg","shop.jpg","friends-museum.jpg","about.jpg","food.jpg","baradari.jpg","gallery-cafe.jpg",
+    "../icons/museum.svg","../icons/travel-bus.svg","../icons/parking.svg","../icons/bus.svg","../icons/accessibility.svg","../icons/clock.png"
+  ]
+}
