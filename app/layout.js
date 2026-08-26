@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'City Palace Museum Jaipur — Concept Redesign',
-  description: 'A luxury editorial redesign concept for the City Palace Museum, Jaipur.',
+  title: 'The City Palace Museum, Jaipur',
+  description: 'Discover the City Palace Museum in Jaipur — its architecture, collections, royal heritage, craft traditions and visitor information.',
 };
 
 export default function RootLayout({ children }) {
